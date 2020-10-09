@@ -1,5 +1,5 @@
 # dial-a-peewee
-Pee-Wee has some things to tell you. <a href="https://connietee22.github.io/dial-a-peewee/">Click a button or dial his extension</a>!
+Pee-Wee has some things to tell you. <a href="https://connietee22.github.io/dialAPeewee/">Click a button or dial his extension</a>!
 
 ### Built by:
 Connie Tsang
