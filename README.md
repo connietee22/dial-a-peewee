@@ -1,7 +1,7 @@
 # dial-a-peewee
 Pee-Wee has some things to tell you. <a href="https://connietee22.github.io/dial-a-peewee/">Click a button or dial his extension</a>!
 
-## Built by:
+### Built by:
 Connie Tsang
 
 ### Tools used:
