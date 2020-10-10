@@ -311,8 +311,8 @@ p {
 	display: block;
 	color: #fffafa;
 	position: relative;
-	top: -60px;
-	left: 15px;
+	top: -50px;
+	left: -50px;
 	text-shadow: 2px 2px #686767;
 }
 
@@ -344,6 +344,12 @@ div .pKey img {
 
 	.imageKeys {
 		justify-content: center;
+	}
+
+	.numberKeys {
+		font-size: 3rem;
+		top: -40px;
+		left: -30px;
 	}
 
 	.pKey {
