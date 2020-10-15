@@ -249,7 +249,6 @@ img {
 
 h1 {
 	font-size: 6rem;
-	margin: 50px 0 0 0;
 }
 
 p {
@@ -261,7 +260,7 @@ p {
 	width: 275px;
 	object-fit: contain;
 	position: relative;
-	top: 5px;
+	top: -20px;
 }
 
 .wrapper {
@@ -292,8 +291,9 @@ header {
 	justify-content: center;
 }
 
-header div {
-	margin-bottom: 20px;
+.combinedText {
+	display: flex;
+	margin: 50px 0 0 0;
 }
 
 .imageKeys {
@@ -337,6 +337,10 @@ div .pKey img {
 }
 
 @media (max-width: 650px) {
+	.combinedText {
+		flex-direction: column;
+	}
+
 	.mainFlex {
 		height: auto;
 	}
@@ -346,7 +350,7 @@ div .pKey img {
 	}
 
 	.logo {
-		margin-bottom: 20px;
+		margin: 20px 0px;
 	}
 
 	.imageKeys {
