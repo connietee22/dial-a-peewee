@@ -287,6 +287,7 @@ header {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
+	align-items: center;
 	margin: 25px auto;
 	justify-content: center;
 }
@@ -336,11 +337,6 @@ div .pKey img {
 }
 
 @media (max-width: 650px) {
-	/* header { */
-	/* flex-direction: column;
-		align-items: center;
-	} */
-
 	.mainFlex {
 		height: auto;
 	}
