@@ -1,81 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Dial-a-Pee-Wee</title>
+		<link rel="stylesheet" href="./style.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Mali:wght@500&display=swap" rel="stylesheet" />
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dial-a-Pee-Wee</title>
-    <link rel="stylesheet" href="./style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Mali:wght@500&display=swap" rel="stylesheet">
+	<body class="wrapper">
+		<header>
+			<h1>Dial-a-</h1>
+			<div><img src="assets/peeweeLogo.png" class="logo" /></div>
+			<p>...how may I direct your call?</p>
+		</header>
+		<main>
+			<section class="mainFlex">
+				<!-- PEEWEE KEYPAD TO DIAL EXTENSION -->
+				<div class="imageKeys">
+					<div class="pKey" id="img1">
+						<img src="assets/pee-weePhone1.jpg" />
+						<audio id="1" src="assets/I Know You Are.mp3"></audio>
+						<p class="numberKeys">1</p>
+					</div>
+					<div class="pKey" id="img2">
+						<img src="assets/pee-weePhone2.jpg" />
+						<audio id="2" src="assets/Answering phone.mp3"></audio>
+						<p class="numberKeys">2</p>
+					</div>
+					<div class="pKey" id="img3">
+						<img src="assets/pee-weePhone6.jpg" />
+						<audio id="3" src="assets/I meant to do that.mp3"></audio>
+						<p class="numberKeys">3</p>
+					</div>
+					<div class="pKey" id="img4">
+						<img src="assets/pee-weePhone4.jpg" />
+						<audio id="4" src="assets/My Name.mp3"></audio>
+						<p class="numberKeys">4</p>
+					</div>
+					<div class="pKey" id="img5">
+						<img src="assets/peewee-Phone8.png" />
+						<audio id="5" src="assets/Say It.mp3"></audio>
+						<p class="numberKeys">5</p>
+					</div>
+					<div class="pKey" id="img6">
+						<img src="assets/pee-weePhone3.jpg" />
+						<audio id="6" src="assets/Take a Picture.mp3"></audio>
+						<p class="numberKeys">6</p>
+					</div>
+					<div class="pKey" id="img7">
+						<img src="assets/pee-weePhone9.jpg" />
+						<audio id="7" src="assets/mistake.wav"></audio>
+						<p class="numberKeys">7</p>
+					</div>
+					<div class="pKey" id="img8">
+						<img src="assets/pee-weePhone7.jpg" />
+						<audio id="8" src="assets/use_the_phone.wav"></audio>
+						<p class="numberKeys">8</p>
+					</div>
+					<div class="pKey" id="img9">
+						<img src="assets/pee-weePhone10.jpg" />
+						<audio id="9" src="assets/big_but.wav"></audio>
+						<p class="numberKeys">9</p>
+					</div>
+				</div>
+			</section>
+		</main>
 
-</head>
-
-<body class="wrapper">
-    
-    <header>
-        <h1>Dial-a-</h1>
-        <div><img src="assets/peeweeLogo.png" class="logo"></div>
-        <p>...how may I direct your call?</p>
-    </header>
-    <main>
-        <div class="mainFlex">
-        
-            <!-- PEEWEE KEYPAD TO DIAL EXTENSION -->
-        <section class="imageKeys">
-            <div class="pKey" id="img1">
-                <img src="assets/pee-weePhone1.jpg">
-                <audio id="1" src="assets/I Know You Are.mp3"></audio>
-                <p class = "numberKeys">1</p>
-            </div>
-            <div class="pKey" id="img2">
-                <img src="assets/pee-weePhone2.jpg">
-                <audio id="2" src="assets/Answering phone.mp3"></audio>
-                <p class = "numberKeys">2</p>
-            </div>
-            <div class="pKey" id="img3">
-                <img src="assets/pee-weePhone6.jpg">
-                <audio id="3" src="assets/I meant to do that.mp3"></audio>
-                <p class = "numberKeys">3</p>
-            </div>
-            <div class="pKey" id="img4">
-                <img src="assets/pee-weePhone4.jpg">
-                <audio id="4" src="assets/My Name.mp3"></audio>
-                <p class = "numberKeys">4</p>
-            </div>
-            <div class="pKey" id="img5">
-                <img src="assets/peewee-Phone8.png">
-                <audio id="5" src="assets/Say It.mp3"></audio>
-                <p class = "numberKeys">5</p>
-            </div>
-            <div class="pKey" id="img6">
-                <img src="assets/pee-weePhone3.jpg">                
-                <audio id="6" src="assets/Take a Picture.mp3"></audio>
-                <p class = "numberKeys">6</p>
-            </div>
-            <div class="pKey" id="img7">
-                <img src="assets/pee-weePhone9.jpg">
-                <audio id="7" src="assets/mistake.wav"></audio>
-                <p class = "numberKeys">7</p>
-            </div>
-            <div class="pKey" id="img8">
-                <img src="assets/pee-weePhone7.jpg">
-                <audio id="8" src="assets/use_the_phone.wav"></audio>
-                <p class = "numberKeys">8</p>
-            </div>
-            <div class="pKey" id="img9">
-                <img src="assets/pee-weePhone10.jpg">
-                <audio id="9" src="assets/big_but.wav"></audio>
-                <p class = "numberKeys">9</p>
-            </div>
-        </section>
-    </div>
-    </div>
-</main>
-
-<!-- JQUERY/JAVASCRIPT LINKS-->
-<script src='https://code.jquery.com/jquery-3.4.0.min.js'
-        integrity='sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=' crossorigin='anonymous'></script>
-<script src="./script.js"></script>
-
-</body>
+		<!-- JQUERY/JAVASCRIPT LINKS-->
+		<script
+			src="https://code.jquery.com/jquery-3.4.0.min.js"
+			integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+			crossorigin="anonymous"
+		></script>
+		<script src="./script.js"></script>
+	</body>
 </html>
