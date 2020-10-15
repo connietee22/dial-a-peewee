@@ -249,7 +249,7 @@ img {
 
 h1 {
 	font-size: 6rem;
-	margin: 50px 0 25px 0;
+	margin: 50px 0 0 0;
 }
 
 p {
@@ -283,9 +283,16 @@ p {
 	text-align: center;
 }
 
-.combinedHeader {
+header {
 	display: flex;
-	margin-top: 25px;
+	flex-direction: column;
+	text-align: center;
+	margin: 25px auto;
+	justify-content: center;
+}
+
+header div {
+	margin-bottom: 20px;
 }
 
 .imageKeys {
@@ -329,9 +336,13 @@ div .pKey img {
 }
 
 @media (max-width: 650px) {
-	.combinedHeader {
+	header {
 		flex-direction: column;
 		align-items: center;
+	}
+
+	.mainFlex {
+		height: auto;
 	}
 
 	h1 {
