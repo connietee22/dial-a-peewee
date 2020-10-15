@@ -336,10 +336,10 @@ div .pKey img {
 }
 
 @media (max-width: 650px) {
-	header {
-		flex-direction: column;
+	/* header { */
+	/* flex-direction: column;
 		align-items: center;
-	}
+	} */
 
 	.mainFlex {
 		height: auto;
